@@ -157,6 +157,10 @@ nav{
     text-align: center;
 }
 
+.skills_item1 {
+    margin-left: 60px;
+}
+
 .clear {
     clear: left;
 }
