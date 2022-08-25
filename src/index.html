@@ -6,6 +6,7 @@
     <title>Андрей Браун - Веб-разработчик </title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
@@ -24,9 +25,18 @@
             </div>
         </nav>
     </header>
+    
+<!--
+    <script>
+        let adnin, name;
+        admin = "Джон";
+        name = "admin";
+        alert (admin);
+    </script>
+-->
 
     <div class="main">
-        <div class="title__container">
+        <div class="title__container animate__animated animate__heartBeat animate__delay-1s	">
             <h1>Привет <br> Я Андрей Браун</h1>
             <h4>Фулл стек веб разработчик</h4>
             <input type="submit" value="Обо мне">
@@ -49,7 +59,7 @@
         <div class="skills_container">
             <h2>Что я умею</h2>
             <hr>
-            <div class="skills_item" class="skills_item1">
+            <div class="skills_item skills_item1">
                 <img src="img/laptop.png" alt="">
                 <h3>Веб-дизайн</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, laboriosam.</p>
@@ -194,7 +204,7 @@
                     <input class="input2" type="text" name="почта" placeholder="Email">
                 </div>
                 <textarea name="s" id="s" placeholder="Сообщение"></textarea>
-                <input type="submit" value="Отправить">
+                <input class= "input3" type="submit" value="Отправить">
             </form>
         </div>
     </div>
