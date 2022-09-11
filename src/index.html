@@ -3,41 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Андрей Браун - Веб-разработчик </title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
 <body>
     <div class="loader"> 
     <div class="sign"></div>
     </div>
-    <header>
+   <header>
         <nav>
-            <div class="logo">Андрей Браун</div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Обо мне</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Кейсы</a></li>
-                    <li><a href="#">Прайс</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">Андрей Браун</div>
+                    </div>
+                    <div class="col-6 offset-4">
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Обо мне</a></li>
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Кейсы</a></li>
+                                <li><a href="#">Прайс</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
 
-    <div class="main">
-        <div class="title__container animate__animated animate__heartBeat animate__delay-1s	">
-            <h1>Привет <br> Я Андрей Браун</h1>
-            <h4>Фулл стек веб разработчик</h4>
-            <input type="submit" value="Обо мне">
-            <input type="submit" value="Мои работы">
-        </div>
-    </div>
-
+       <div class="main">
+           <div class="container">
+               <div class="title__container animate__animated animate__heartBeat animate__delay-1s	">
+                   <div class="row h-100">
+                       <div class="col-6">
+                           <h1>Привет <br> Я Андрей Браун</h1>
+                           <h4>Фулл стек веб разработчик</h4>
+                           <input type="submit" value="Обо мне">
+                           <input type="submit" value="Мои работы">
+                       </div>
+                   </div>
+               </div>
+           
+       </div>
+    
     <div class="about_me">
         <div class="about_me_container">
             <h2>Обо мне</h2>
@@ -210,6 +226,8 @@
     <footer>
         <h4>Copyright © 2021 Андрей Браун. Design by Web</h4>
     </footer>
+    </div>
+    
 </body>
 
 </html>

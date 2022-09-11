@@ -1,0 +1,32 @@
+nav {
+    background: #344051;
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+
+.menu a{
+    float: left;
+    color: #fff;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 60px;
+    padding-right: 30px;
+    display: flex;
+    align-self:baseline;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+   color: #fff; 
+}
